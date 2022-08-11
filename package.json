@@ -1,0 +1,26 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-krawiec/jest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel-krawiec/jest/issues"
+  },
+  "homepage": "https://github.com/daniel-krawiec/jest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@testing-library/jest-dom": "^5.16.5",
+    "babel-jest": "^29.0.0-alpha.4",
+    "jest": "^29.0.0-alpha.4",
+    "jest-environment-jsdom": "^29.0.0-alpha.4"
+  }
+}
