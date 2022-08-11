@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@models/*": ["./models/*"],
+      "@inputs/*": ["./inputs/*"],
+      "@tests/*": ["./__tests__/*"],
+      "@resolvers/*": ["./resolvers/*"],
+      "@seeds/*": ["./seeds/*"],
+      "@index": ["./index.ts"],
+      "@ormconfig": ["../ormconfig.ts"]
+    }
+  }
+}
