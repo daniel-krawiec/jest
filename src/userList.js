@@ -24,8 +24,8 @@ class UserList {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
           if (this.totalUsers > 0) {
-						const randomNumber = Math.floor(Math.random() * this.totalUsers);
-						resolve(this.allUsers[randomNumber]);
+            const randomNumber = Math.floor(Math.random() * this.totalUsers);
+            resolve(this.allUsers[randomNumber]);
           } else {
             reject("No users");
           }
